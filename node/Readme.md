@@ -3,8 +3,7 @@
 ## Instructions
 Run `npm install` which will install all of the required npm dependencies. That is it!
 
-**Note:** _You will need Redis installed on localhost. You should be able to access the Redis using host `127.0.0.1` and port `6379`. Otherwise, you will need to update connection strings in all of the files._
-
+**Note:** _You will need Redis installed on localhost. You should be able to access the Redis using host `127.0.0.1` and port `6379`. Otherwise, you will need to update connection strings in all of the files. You can achieve it buy running Redis docker image using command: `docker run -v /path/to/host/redis/data:/data --name myredis -d redis redis-server --save 60 1 --loglevel warning`_
 
 ## Files:
 1. [create-queue.js](#create-queuejs)
