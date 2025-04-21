@@ -1,0 +1,19 @@
+{
+  "name": "experiment-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Igibek Koishybayev",
+  "license": "ISC",
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "bullmq": "^3.7.0",
+    "mongodb": "^6.15.0",
+    "winston": "^3.8.2"
+  }
+}
