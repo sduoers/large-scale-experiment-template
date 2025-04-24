@@ -11,11 +11,11 @@ parser.add_argument("-q", "--queue", {
     help: "Name of the queue you are about to create"
 });
 
-const {name} = parser.parse_args();
-
+const args = parser.parse_args();
+console.log("parsed args:", args)
 // create the queue with specific name
-const queue = new Queue(name);
-console.log(`retrying failed jobs in ${name}`);
+const queue = new Queue(args.queue);
+console.log(`retrying failed jobs in ${args.queue}`);
 await queue.retryJobs();
 await queue.close();
 console.log(`connection closed`);

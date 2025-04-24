@@ -1,5 +1,7 @@
 # Experiment Template with NodeJS
 
+Under this folder you will find Node.js implementation of our queue architecture for large scale experiments. This particular implementation uses [BullMQ](https://docs.bullmq.io/) queue system. You can check out the detailed documentation here: https://docs.bullmq.io/
+
 ## Instructions
 Run `npm install` which will install all of the required npm dependencies. That is it!
 
